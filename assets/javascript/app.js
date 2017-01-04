@@ -1,4 +1,4 @@
-  var queryURL = "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC";
+  var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC";
 
     $.ajax({
         url:queryURL, 
@@ -43,7 +43,7 @@ $('#gameInput').keypress(function(e) {
     var keyword = $('#gameInput').val();
         
 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + keyword + "&api_key=dc6zaTOxFJmzC&limit=20";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + keyword + "&api_key=dc6zaTOxFJmzC&limit=20";
 
 	$.ajax({
 		url:queryURL, 
