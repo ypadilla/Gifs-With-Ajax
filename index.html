@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
 
+<!-- Bootstrap CDN-->
 <script
 src="https://code.jquery.com/jquery-3.1.1.min.js"
 integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -21,20 +22,21 @@ crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="assets/style.css">
+<link rel="icon" href="assets/images/camera.png" type="image">
 <body>
 
 
+  <!--Nav wrapper that centers the brand name-->
   <nav>
     <div class="nav-wrapper">
-      <a href="gifajax.html" class="brand-logo center">GIF-JAX</a>
-
+      <a href="index.html" class="brand-logo center" >GIF-JAX</a>
     </div>
   </nav>
 
 
 
 
-
+  <!-- Sets layout for responsiveness and button value-->
   <div class="row">
     <form class="col s12">
       <div class="row">
@@ -43,43 +45,33 @@ crossorigin="anonymous"></script>
         </div>  
       </form>
       <br>
- <div class="row">
-    <div class="col s12">
+      <div class="row">
+        <div class="col s12">
+          <div class="categoryButtons">
+            <a class="waves-effect waves-light btn" data-value="Entertainment" id="presets">Entertainment</a>
+            <a class="waves-effect waves-light btn" data-value="Funny" id="presets1">Funny</a>
+            <a class="waves-effect waves-light btn" data-value="Reactions" id="presets2">Reactions</a>
+            <a class="waves-effect waves-light btn" data-value="Movies" id="presets3">Movies</a>
+            <a class="waves-effect waves-light btn" data-value="Music" id="presets4">Music</a>
+            <a class="waves-effect waves-light btn" data-value="Sports" id="presets5">Sports</a>
 
- <p class="greeter"><img src="assets/images/camera.png"><br>Giphy with Ajax, Powered by GIPHY API</p>
-</div> 
-</div>
+          </div>
+          <p class="greeter"><img src="assets/images/camera.png"><br>Giphy with Ajax, Powered by GIPHY API</p>
+        </div> 
+      </div>
     </div>
 
 
 
-
+    <!--Container that aligns the content to the center-->
     <main>
       <div class="container">
-
         <div class="section center-align" id="results"><div id="gifsReturned"></div>
       </div>
     </div>
   </main>
 
 
-<footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Created By Yavi Padilla</h5>
-
-             
-            </div>  
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-           Powered by GIPHY API
-            
-            </div>
-          </div>
-        </footer>
 
 
 

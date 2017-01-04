@@ -10,6 +10,10 @@ nav {
 	font-size: 30px;
 }
 
+/*
+Centers the input
+*/
+
 input[type=text]{
 	color: black;
 	background-color: white;
@@ -32,8 +36,33 @@ input[type=text]{
 	font-weight: bold;
 }
 
+.categoryButtons{
+	text-align: center;
+	margin-top: 2%; 
+}
 
- footer.page-footer{
-	background-color: #47494c;
+
+#presets{
+	background-color: #c41d1d;
+}
+
+#presets1{
+	background-color: #e5b029;
+}
+
+#presets2{
+	background-color: #d5d81c;
+}
+
+#presets3{
+	background-color: #1dc468;
+}
+
+#presets4{
+	background-color: #36c9ba;
+}
+
+#presets5{
+	background-color: #4286f4;
 }
 
